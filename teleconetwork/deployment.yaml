@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: pocoperator
+  name: pocoperator
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pocoperator
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: pocoperator
+    spec:
+      containers:
+      - image: poczinkworks:1.0.0
+        name: poczinkworks
+        resources: {}
+status: {}

@@ -1,0 +1,7 @@
+apiVersion: poc.zinkworks.com/v1
+kind: TelecoNetwork
+metadata:
+  name: test-poc
+spec:
+  name: testing
+
