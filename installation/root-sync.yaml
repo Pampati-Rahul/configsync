@@ -7,7 +7,7 @@ spec:
   sourceType: git
   sourceFormat: unstructured
   git:
-    repo: git@github.com:Pampati-Rahul/configsync.git
+    repo: https://github.com/Pampati-Rahul/configsync.git 
     revision: HEAD
     branch: main
     dir: poc
