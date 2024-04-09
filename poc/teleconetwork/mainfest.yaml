@@ -4,5 +4,5 @@ metadata:
   name: test-poc
 spec:
   name: testing
-  url: https://test.com/v1
+  url: https://test-upgrade.com/v1
 
